@@ -1,6 +1,13 @@
 Feature: Validation du système de passage de commande
+  As a client, I want to be able to validate my order
 
-  Scenario: Envoi d'une commande valide
-    Given le client ajoute un produit dans le panier
-    When le client renseigne son adresse
-    Then la commande devrait être validée avec succès
+  Scenario Outline: Order validation
+    Given the client has selected <product>
+    When the client validates his order
+    Then the order should be validated successfully
+
+    Examples: 
+      | product  |
+      | product1 |
+      | product2 |
+      | product3 |
