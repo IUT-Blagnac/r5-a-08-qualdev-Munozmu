@@ -1,0 +1,17 @@
+{
+  "name": "projet-commande",
+  "version": "1.0.0",
+  "description": "Tests avec cucumber sur un système de prise de commande",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "author": "Gabin Munoz",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "@types/chai": "^4.3.11",
+    "chai": "^4.3.10",
+    "ts-node": "^10.4.0"
+  }
+}

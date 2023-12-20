@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "outDir": "./dist",
+      "strict": true,
+      "moduleResolution": "node",
+      "experimentalDecorators": true
+    },
+    "include": ["src/**/*.ts", "features/step_definitions/commandeSteps.ts"],
+    "exclude": ["node_modules"]
+  }
+  
